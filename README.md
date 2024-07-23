@@ -4,6 +4,7 @@ a bash script that uses `tc` to emulate various real world network connectivity 
 
 ## usage
 
+```
 Must be run as root
 badnet.sh [-m mode] [-d delay] [-l loss] [-u duplicate] [-r rate] <interface>
  Modify a network interface to match real world conditions
@@ -30,4 +31,5 @@ Options :
   -u|--duplicate <percentage>: percentage of duplicated packets
 
 interface is like you see it in ip addr
+```
 
